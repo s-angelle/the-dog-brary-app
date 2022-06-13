@@ -34,7 +34,7 @@ function App() {
   };
 
   return (
-    <div className=" form-group App">
+    <div>
       <h1 id="main-heading">The Dog-Brary</h1>
       <img
         id="company-logo"
