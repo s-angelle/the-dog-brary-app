@@ -9,10 +9,12 @@ const DogInfo = ({ dogInfo }) => {
               <li>Temperament: {dog.temperament}</li>
               <li>Bred For: {dog.bred_for}</li>
               <li>Life Span: {dog.life_span}</li>
-              <img
+              <div id='dog-photo-container'>
+              <img id='dog-photo'
                 src={`https://cdn2.thedogapi.com/images/${dog.reference_image_id}.jpg`}
                 alt={`${dog.name}`}
               />
+              </div>
             </ul>
           </div>
         );
