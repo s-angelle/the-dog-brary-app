@@ -1,31 +1,64 @@
 /* Main Settings */
-*{
-    box-sizing: border-box;
-    margin: 0 auto;
-    background-color: antiquewhite;
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  font-family: "Antic Slab", serif;
 }
+
 /* Form Settings */
 
-form, form input {
-    justify-content: center;
-    width:15rem;
-    text-align: center;
-    margin-top: 2%;
+form,
+form input {
+  justify-content: center;
+  width: 15rem;
+  text-align: center;
+  margin-top: 2%;
+}
+
+#submit-btn-container {
+  margin-top: 3%;
+}
+
+#main-form {
+  margin-top: 3%;
 }
 
 /* Heading and Info Displayed */
-h1, #dog-info li,
-#dog-info img {
-    display:flex;
-    justify-content: center;
-    list-style:none;
+
+#main-heading {
+  display: flex;
+  margin-top: 3%;
+  font-family: "Dancing Script", cursive;
+  font-size: 2.8rem;
+  font-weight: 2rem;
 }
 
-img{
-    height: 20rem;
-    width: 23rem;
+#company-logo {
+  border: 0.3rem solid black;
+  border-radius: 5%;
+  height: 16rem;
+  width: 12rem;
 }
 
-#dog-info{
-    margin-top: 2%;
+#dog-info {
+  margin-top: 2%;
+}
+
+h2,
+#main-heading,
+#dog-info li,
+#dog-info img,
+#company-logo {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+img {
+  border: 0.3rem solid black;
+  border-radius: 5%;
+  height: 20rem;
+  width: 23rem;
 }

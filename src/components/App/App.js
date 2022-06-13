@@ -35,22 +35,31 @@ function App() {
 
   return (
     <div className=" form-group App">
-      <h1>The Dog-Brary</h1>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="breed">Breed:</label>
-        <input
-          type="text"
-          required
-          value={dogBreed}
-          onChange={handleChange}
-          class="form-control"
-          id="exampleInputName2"
-          placeholder="Type Breed Name Here"
-        />
-        <button type="submit" className="btn btn-primary" id="main-btn">
-          Submit
-        </button>
-      </form>
+      <h1 id="main-heading">The Dog-Brary</h1>
+      <img
+        id="company-logo"
+        src={require("../../images/CompanyLogo.png")}
+        alt="company logo"
+      />
+      <div id="main-form">
+        <form onSubmit={handleSubmit}>
+          <label htmlFor="breed">Breed:</label>
+          <input
+            type="text"
+            required
+            value={dogBreed}
+            onChange={handleChange}
+            class="form-control"
+            id="exampleInputName2"
+            placeholder="Type Breed Name Here"
+          />
+          <div id="submit-btn-container">
+            <button type="submit" className="btn btn-primary" id="main-btn">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
       <DogInfo dogInfo={dogInfo} />
     </div>
   );
