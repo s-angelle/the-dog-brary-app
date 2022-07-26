@@ -14,19 +14,17 @@ https://the-dog-brary-app.vercel.app/
 
 ## Project Goals:
 
-1. Use functional components using the create-react-app.
+1. Use functional components using the create-react-app
 
-2. Needs minimum of 2 components. Must use props and state.
+2. Must use props and state
 
 3. Use at least one API
 
-4. Need to use minimum of two query parameters
+4. Form for user input (if necessary)
 
-5. Form for user input (if necessary)
+5. Must use Axios
 
-6. Must use Axios
-
-7. Must use CSS framework
+6. Must use CSS framework
 
 ## Areas of Improvement
 
